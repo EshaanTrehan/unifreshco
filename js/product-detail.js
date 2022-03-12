@@ -10,12 +10,12 @@ document.querySelector('#view-all-description').addEventListener('click', () => 
     content.classList.toggle('active')
     document.querySelector('#view-all-description').innerHTML = content.classList.contains('active') ? 'view less' : 'view all'
 })
-
+// images\
 let products = [
     {
-        name: 'JBL E55BT KEY BLACK',
-        image1: './images/JBL_E55BT_KEY_BLACK_6175_FS_x1-1605x1605px.png',
-        image2: './images/JBL_LIVE650BTNC_Product Image_Folded_Black.webp',
+        name: 'LAUNDARY',
+        image1: './images/Laundary.webp',
+        image2: './images/images/Laundary-Bag.webp',
         old_price: '400',
         curr_price: '300'
     },
