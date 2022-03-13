@@ -51,50 +51,50 @@ let products = [
         name: 'Snack Pack',
         image1: './images/snack pack.webp',
         image2: './images/snack pack.webp',
-        old_price: '400',
-        curr_price: '300'
+        old_price: '1200',
+        curr_price: '1000'
     },
     {
         name: 'Rice Cooker',
         image1: './images/rice cooker.webp',
         image2: './images/rice cooker.webp',
-        old_price: '400',
-        curr_price: '300'
+        old_price: '1000',
+        curr_price: '750'
     },
     {
         name: 'Freezer Locker',
         image1: './images/freezer locker.webp',
         image2: './images/freezer locker.webp',
-        old_price: '400',
-        curr_price: '300'
+        old_price: '500',
+        curr_price: '400'
     },
     {
         name: 'Laundary Bag',
         image1: './images/laundary.webp',
         image2: './images/laundary.webp',
-        old_price: '400',
-        curr_price: '300'
+        old_price: '650',
+        curr_price: '450'
     },
     {
         name: 'Stationary Pack',
         image1: './images/stationary.webp',
         image2: './images/stationary.webp',
-        old_price: '400',
-        curr_price: '300'
+        old_price: '750',
+        curr_price: '600'
     },
     {
         name: 'Storage Box',
         image1: 'images/storage.webp',
         image2:  'images/storage.webp',
-        old_price: '400',
-        curr_price: '300'
+        old_price: '900',
+        curr_price: '700'
     },
     {
         name: 'Steam iron',
         image1: 'images/steam iron.webp',
         image2: 'images/steam iron.webp',
-        old_price: '400',
-        curr_price: '300'
+        old_price: '1250',
+        curr_price: '950'
     },
 ]
 
