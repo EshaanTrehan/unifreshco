@@ -1,45 +1,87 @@
 let products = [
     {
-        name: 'JBL E55BT KEY BLACK',
-        image1: './images/JBL_E55BT_KEY_BLACK_6175_FS_x1-1605x1605px.png',
-        image2: './images/JBL_LIVE650BTNC_Product Image_Folded_Black.webp',
-        old_price: '400',
-        curr_price: '300'
+        name: 'All in One Box',
+        image1: './images/fullkitout.webp',
+        image2: './images/internationalkit.webp',
+        old_price: '800',
+        curr_price: '700'
     },
     {
-        name: 'JBL JR 310BT',
-        image1: './images/JBL_JR 310BT_Product Image_Hero_Skyblue.png',
-        image2: './images/JBL_JR 310BT_Product Image_Detail_Skyblue.png',
-        old_price: '400',
-        curr_price: '300'
+        name: 'Premium Box',
+        image1: './images/ultimatekit.webp',
+        image2: './images/internationalkit.webp',
+        old_price: '1000',
+        curr_price: '500'
     },
     {
-        name: 'JBL TUNE 750BTNC',
-        image1: './images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png',
-        image2: './images/JBL_E55BT_KEY_RED_6063_FS_x1-1605x1605px.webp',
-        old_price: '400',
-        curr_price: '300'
+        name: 'Bedroom Pack',
+        image1: './images/bedroomkit.webp',
+        image2: './images/bedroom.webp',
+        old_price: '1200',
+        curr_price: '800'
     },
     {
-        name: 'JBL Horizon',
-        image1: './images/JBLHorizon_001_dvHAMaster.png',
-        image2: './images/JBLHorizon_BLK_002_dvHAMaster.webp',
-        old_price: '400',
-        curr_price: '300'
+        name: 'Utensils Pack',
+        image1: './images/utensils.webp',
+        image2: './images/utensils2.jpg',
+        old_price: '1800',
+        curr_price: '1500'
     },
     {
-        name: 'JBL Tune 220TWS',
-        image1: './images/JBL_TUNE220TWS_ProductImage_Pink_ChargingCaseOpen.png',
-        image2: './images/JBL_TUNE220TWS_ProductImage_Pink_Back.png',
-        old_price: '400',
-        curr_price: '300'
+        name: 'Lifestyle Box',
+        image1: './images/pillow.webp',
+        image2:'./images/bedsheet.webp',
+        old_price: '2200',
+        curr_price: '1800'
     },
     {
-        name: 'UA Project Rock',
-        image1: './images/190402_E1_FW19_EarbudsWCase_S13_0033-1_1605x1605_HERO.png',
-        image2: './images/190402_E1_FW19_EarbudsWCase_S13_0033-1_1605x1605_BACK.png',
-        old_price: '400',
-        curr_price: '300'
+        name: 'Kitchen Box',
+        image1: './images/kitchenkit.webp',
+        image2: './images/kitchenkit2.webp',
+        old_price: '600',
+        curr_price: '550'
+    },
+    {
+        name: 'Toiletries Box',
+        image1: './images/bathroomkit.webp',
+        image2: './images/bathroomkit2.webp',
+        old_price: '600',
+        curr_price: '550'
+    },
+    {
+        name: 'Cleaning Pack',
+        image1: './images/cleaning.webp',
+        image2: './images/cleaning1.webp',
+        old_price: '600',
+        curr_price: '550'
+    },
+    {
+        name: 'Snack Pack',
+        image1: './images/snack2.jpg',
+        image2: './images/snack.jpg',
+        old_price: '600',
+        curr_price: '550'
+    },
+    {
+        name: 'Steam Iron',
+        image1: './images/iron.webp',
+        image2: './images/iron2.webp',
+        old_price: '600',
+        curr_price: '550'
+    },
+    {
+        name: 'Freezer Locker',
+        image1: './images/freezer.webp',
+        image2: './images/freezer2.jpg',
+        old_price: '600',
+        curr_price: '550'
+    },
+    {
+        name: 'Laundry Bag',
+        image1: './images/laundry.webp',
+        image2: './images/laundry2.webp',
+        old_price: '600',
+        curr_price: '550'
     },
 ]
 
@@ -79,7 +121,6 @@ renderProducts = (products) => {
     })
 }
 
-renderProducts(products)
 renderProducts(products)
 
 let filter_col = document.querySelector('#filter-col')
